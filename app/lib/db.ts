@@ -4,7 +4,7 @@ import { open, Database } from 'sqlite';
 // Initialize and configure SQLite database
 const initializeDatabase = async (): Promise<Database> => {
   const db = await open({
-    filename: './feedback.db',
+    filename: './database.sqlite',
     driver: sqlite3.Database,
   });
 

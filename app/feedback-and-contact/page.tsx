@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from 'react';
 import axios from 'axios';
 
@@ -45,7 +45,7 @@ const Home = () => {
   return (
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-white shadow-md rounded p-6">
-        <h1 className="text-2xl font-bold mb-4">Feedback Form</h1>
+        <h1 className="text-2xl font-bold mb-4">Feedback&Contact Form</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>

@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import initializeDatabase from '../lib/db';
+import initializeDatabase from '../../lib/db';
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === 'POST') {
